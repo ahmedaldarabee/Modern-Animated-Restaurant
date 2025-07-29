@@ -87,7 +87,7 @@ const Navbar = () => {
                 </div>
                 {/* button selection */}
                 <motion.div
-                    variants={SlideDown(1)}
+                    variants={SlideDown(2)}
                     initial="initial"
                     animate="animate"
                 >

@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .text-outline {
+        -webkit-text-stroke: 2px rgb(0,0,0);
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-darkGreen text-white hover:scale-110 font-semibold py-2 px-4 rounded-full duration-200
+    }
+}
+
+@layer utilities {
+    .img-shadow {
+        filter: drop-shadow(-6px 6px 10px rgba(0, 0, 0, 0.4));
+    }
+}
