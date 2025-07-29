@@ -7,7 +7,7 @@ import Food3 from '../../assets/food2.png'
 import {motion} from 'framer-motion'
 import { SlideUp } from '../Header/Hero'
 
-const HotDessertData = [
+export const HotDessertData = [
     {
         id: 1,
         name: "Hot Dessert",
