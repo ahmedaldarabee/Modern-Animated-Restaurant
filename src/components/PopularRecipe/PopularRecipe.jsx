@@ -18,9 +18,9 @@ const PopularRecipe = () => {
                 {/* card section */}
                 <div 
                     className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center'>
-                    {HotDessertData.map((item) => {
+                    {HotDessertData.map((item,idx) => {
                         return (
-                            <div 
+                            <div key={idx}
                             className='group space-y-3 text-center bg-white/50 shadow-xl p-3 rounded-xl'>
                                 <img 
                                     className='w-44 mx-auto img-shadow group-hover:scale-x-110

@@ -1,4 +1,6 @@
 import Banner from "./components/Banner/Banner"
+import Feedback from "./components/Feedback/Feedback"
+import Footer from "./components/Footer/Footer"
 import Hero from "./components/Header/Hero"
 import Navbar from "./components/Header/Navbar"
 import HotDessert from "./components/HotDessert/HotDessert"
@@ -14,6 +16,8 @@ const App = () => {
             <HotDessert/>
             <Banner/>
             <PopularRecipe />
+            <Feedback />
+            <Footer />
         </div>
     )
 }

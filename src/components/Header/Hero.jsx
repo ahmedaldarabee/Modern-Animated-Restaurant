@@ -42,7 +42,7 @@ const Hero = () => {
                             <img
                                 src={Leaf}
                                 alt="Leaf img"
-                                className="absolute w-[50px] h-[50px] md:w-[100px] md:h-[100px] md:top-1 md:right-[25px] top-0 right-[110px]"/>
+                                className="absolute w-[50px] h-[50px] md:w-[100px] md:h-[100px] max-sm:top-[-50px] lg:top-1 lg:right-[25px] top-0 right-[110px]"/>
                         </motion.h3>
 
                         <motion.h3

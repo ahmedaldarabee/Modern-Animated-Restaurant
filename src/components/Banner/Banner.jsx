@@ -1,10 +1,7 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion"
 import BannerImg from '../../assets/banner.png'
 import { SlideUp } from "../Header/Hero"
 import { IoCartOutline } from "react-icons/io5"
-
 
 const Banner = () => {
     return (
